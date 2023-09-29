@@ -273,15 +273,16 @@ li {
 }
 
 
-
+@media (max-width: 768px) {
 .maquina-escribir {
-  font-size: xx-large;
+  font-size: 5rem;
   display: block;
   
   white-space: nowrap;        
   width: 20ch; 
   animation: escribiendo 2s steps(20);          
   overflow: hidden;
+}
 }
 
 .cursor{
